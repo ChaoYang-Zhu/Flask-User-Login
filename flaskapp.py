@@ -8,7 +8,7 @@ app.debug = True
 app.secret_key = os.urandom(12)
 
 db = mysql.connector.connect(
-    host='localhost', user='root', password='Fairfield888', database='users')
+    host='localhost', user='root', password='', database='users')
 db.autocommit = True
 cursor = db.cursor(buffered=True)
 
