@@ -1,3 +1,3 @@
 Run Application with following command:
 
-FLASK_APP=Main.py flask run
+FLASK_APP=flaskapp.py flask run
